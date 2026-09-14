@@ -41,7 +41,7 @@ def send_email_with_pdf(api_key, sender_email, recipient_email, subject, content
 
 # Example usage
 current_date = datetime.datetime.now().strftime("%m-%d-%Y")
-api_key = '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'  # Replace with your API key
+api_key = ''  # Replace with your API key
 sender = 'hitmeonthisaddress@gmail.com'  # Replace with your email
 recipient = ['hitmeonthisaddress@gmail.com','noel@novotrato.com']  # Replace with recipient's email
 subject = f"Labor Boletin for {current_date}"
